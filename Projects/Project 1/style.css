@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+ body{
+    /* margin: 50px 100px; */
+ }
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+#header .logo-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    /* border: 2px solid; */
+}
+
+#header .logo-nav img{
+    width: 100px;
+    height: 35px;
+}
+
+.logo-nav nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    /* border: 2px solid; */
+    gap: 30px;
+    font-weight: 600;
+}
+
+.logo-nav nav ul li{
+    list-style-type: none;
+
+}
+
+.logo-nav nav ul a{
+    text-decoration: none;
+    color: #6b6666;
+}
+
+.logo-nav nav ul a:hover{
+    color: #0f0f0f;
+}
+
+#header .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6166ec;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#header .btn:hover {
+    background-color: #494dd5;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid; */
+}
+
+#main .left{
+    /* border: 2px solid; */
+    padding-left: 100px;
+}
+
+#main .left h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #252876;
+    /* border: 2px solid; */
+    /* width: 450px; */
+}
+
+#main .left h1 span{
+    color: #6166ec;
+}
+
+.left p{
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    width: 350px;
+}
+
+.left .btn-1 {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #6166ec;
+    cursor: pointer;
+}
+
+.left .btn-1:hover{
+    background-color: #494dd5;
+}
+
+.right img{
+    width: 700px;
+}
