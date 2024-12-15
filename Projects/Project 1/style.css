@@ -5,9 +5,6 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
- body{
-    /* margin: 50px 100px; */
- }
 
 #header {
     display: flex;
