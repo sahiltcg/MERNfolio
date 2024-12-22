@@ -60,6 +60,23 @@
 // }
 
 
+// Switch statments
+
+let age = 10;
+
+switch (true) {
+  case age < 13:
+    console.log("You are a child.");
+    break;
+  case age >= 13 && age < 20:
+    console.log("You are a teenager.");
+    break;
+  case age >= 20 && age < 65:
+    console.log("You are an adult.");
+    break;
+  default:
+    console.log("You are a senior.");
+}
 
 
 
