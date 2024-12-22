@@ -1,3 +1,15 @@
+// Datatypes (Primitive)
+
+let i= 3;
+const q =4;
+var w = 23;
+
+console.log(1);
+console.log(q);
+console.log(w);
+
+
+
 // Array Fill Method
 
 // let arr1 = [1,2,3,4,5,6,7];
@@ -6,8 +18,9 @@
 
 // Array Concatination Method
 
-let arr1 = [1,2,3,4];
-let arr2 = [5,6,7,8];
-let arr3 = [12,3,4,23,454];
+// let arr1 = [1,2,3,4];
+// let arr2 = [5,6,7,8];
+// let arr3 = [12,3,4,23,454];
 
-console.log(arr1.concat(arr2, arr3));
+// console.log(arr1.concat(arr2, arr3));
+
