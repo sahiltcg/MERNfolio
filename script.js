@@ -1,12 +1,71 @@
 // Datatypes (Primitive)
 
-let i= 3;
-const q =4;
-var w = 23;
+// let i= 3;
+// const q =4;
+// var w = 23;
 
-console.log(1);
-console.log(q);
-console.log(w);
+// console.log(1);
+// console.log(q);
+// console.log(w);
+
+
+// Datatypes (Non-primitive)
+
+// Arrays 
+
+// let i = [1,2,3,4,5,6];
+// console.log(i);
+
+// Objects
+
+// let j = {
+//     name: "sahil",
+//     job: "developer",
+//     age:24,
+//     year:2024,
+// };
+
+// console.log(j);
+
+// Loops
+
+// do while, while, for,
+
+// => do while loop will run at least once even if the condition is false.
+// let i = 0;
+// do{
+//     console.log("The value is :",i);
+//     i++;    
+// }while(i<=5);
+
+// while(i<=5){
+//     console.log("This is the value :",i);
+//     i++;
+// };
+
+for(let i=0;i<=10;i++){
+    console.log("Value :",i);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
