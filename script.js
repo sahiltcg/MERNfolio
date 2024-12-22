@@ -43,11 +43,21 @@
 //     i++;
 // };
 
-for(let i=0;i<=10;i++){
-    console.log("Value :",i);
-}
+// for(let i=0;i<=10;i++){
+//     console.log("Value :",i);
+// }
 
+// Conditions
 
+// if else, Switch, ternary operators
+
+// let f = 7 // Age
+
+// if (f >=18) {
+//     console.log("You are allowed!");
+// }else{
+//     console.log("Go home kid!!");    
+// }
 
 
 
