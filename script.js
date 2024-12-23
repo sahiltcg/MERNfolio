@@ -115,7 +115,11 @@
 // let num = [1,2,3,4,5,6,7,8,9];
 // console.log(num.includes(6,5));
 
-// Array IndexOf
+// Array indexOf
 // let num = [1,2,3,4,5,34,34,"sahil",9];
 // console.log(num.indexOf("sahil"));
 
+// isArray()
+// let num = [1,2,3,4,5,34,34,"sahil",9];
+// let num1 = 'sahil';
+// console.log(Array.isArray(num1));
