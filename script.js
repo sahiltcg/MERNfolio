@@ -62,21 +62,21 @@
 
 // Switch statments
 
-let age = 10;
+// let age = 10;
 
-switch (true) {
-  case age < 13:
-    console.log("You are a child.");
-    break;
-  case age >= 13 && age < 20:
-    console.log("You are a teenager.");
-    break;
-  case age >= 20 && age < 65:
-    console.log("You are an adult.");
-    break;
-  default:
-    console.log("You are a senior.");
-}
+// switch (true) {
+//   case age < 13:
+//     console.log("You are a child.");
+//     break;
+//   case age >= 13 && age < 20:
+//     console.log("You are a teenager.");
+//     break;
+//   case age >= 20 && age < 65:
+//     console.log("You are an adult.");
+//     break;
+//   default:
+//     console.log("You are a senior.");
+// }
 
 
 
@@ -109,4 +109,13 @@ switch (true) {
 // let arr3 = [12,3,4,23,454];
 
 // console.log(arr1.concat(arr2, arr3));
+
+// Array includes
+// => It checks if the value is present on the Index number or not.
+// let num = [1,2,3,4,5,6,7,8,9];
+// console.log(num.includes(6,5));
+
+// Array IndexOf
+// let num = [1,2,3,4,5,34,34,"sahil",9];
+// console.log(num.indexOf("sahil"));
 
