@@ -123,3 +123,11 @@
 // let num = [1,2,3,4,5,34,34,"sahil",9];
 // let num1 = 'sahil';
 // console.log(Array.isArray(num1));
+
+
+// Join
+// let num = [1,2,3,4,5,6,7,8,9];
+// var data = num.join(" sahil ");
+
+// console.log(data);
+// console.log(typeof data);
