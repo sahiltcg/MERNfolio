@@ -60,7 +60,6 @@
 //     asd.push(last+1)
 //     i++;
 // }
-
 // console.log(asd);
 
 
@@ -78,13 +77,14 @@
 
 // Shift
 // let asd = [1, 2, 3, 4, 5];
-
 // console.log("Array before: ", asd);
-
 // for(i=0;i<5;i++){
 //     console.log(`This array: ${asd.shift()}`);
 // }
-
 // // console.log(asd.shift());
 // console.log("Array after: ", asd);
 
+
+// reverse() => It reverses an Array
+let asd = [1, 2, 3, 4, 5];
+console.log(asd.reverse());
