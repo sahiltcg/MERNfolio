@@ -86,5 +86,10 @@
 
 
 // reverse() => It reverses an Array
-let asd = [1, 2, 3, 4, 5];
-console.log(asd.reverse());
+// let asd = [1, 2, 3, 4, 5];
+// console.log(asd.reverse());
+
+// sort()
+// let itBe = [2,5,1,4,7,8,3,4];
+// console.log("Original Array: ",itBe);
+// console.log("Sorted Array: ",itBe.sort());
