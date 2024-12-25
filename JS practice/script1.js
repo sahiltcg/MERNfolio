@@ -25,9 +25,12 @@
 
 // Concat
 
-let abc = ["sahil", "gamer", "PUBG", "HaCkEr", "Ge3k"];
-let bcd = [2,4,5,1,4,5];
+// let abc = ["sahil", "gamer", "PUBG", "HaCkEr", "Ge3k"];
+// let bcd = [2,4,5,1,4,5];
 
-console.log("This is first array: ", abc);
-console.log("This is second array: ", bcd);
-console.log("This is merged array: ",abc.concat(bcd));
+// console.log("This is first array: ", abc);
+// console.log("This is second array: ", bcd);
+// console.log("This is merged array: ",abc.concat(bcd));
+
+
+// Entries
