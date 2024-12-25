@@ -48,8 +48,29 @@
 
 
 // findIndex
-let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let number = (element) => element > 5;
+// console.log(asd.findIndex(number));
 
-let number = (element) => element > 5;
+// Push
+// let asd = [1, 2, 3, 4, 5];
+// let i = 0;
+// while(i<19){
+//     let last = asd[asd.length - 1];
+//     asd.push(last+1)
+//     i++;
+// }
 
-console.log(asd.findIndex(number));
+// console.log(asd);
+
+// Pop
+let asd = [1, 2, 3, 4, 5];
+let i = 0;
+while(i<=4){
+    asd.pop();
+    let last = asd[asd.length - 2];
+    asd.push(last+1)
+    i++;
+    console.log(asd);
+}
+
