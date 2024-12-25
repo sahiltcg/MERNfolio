@@ -48,16 +48,8 @@
 
 
 // findIndex
-// let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// function geek(type) {
-//     console.log(`You are a ${type}`);
-// }
+let number = (element) => element > 5;
 
-// geek("Slan");
-
-let asd = (type) => {
-    console.log(`How are you ${type}?`);
-}
-
-asd("sahil");
+console.log(asd.findIndex(number));
