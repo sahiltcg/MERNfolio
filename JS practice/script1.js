@@ -63,14 +63,28 @@
 
 // console.log(asd);
 
+
 // Pop
-let asd = [1, 2, 3, 4, 5];
-let i = 0;
-while(i<=4){
-    asd.pop();
-    let last = asd[asd.length - 2];
-    asd.push(last+1)
-    i++;
-    console.log(asd);
-}
+// let asd = [1, 2, 3, 4, 5];
+// let i = 0;
+// while(i<=4){
+//     asd.pop();
+//     let last = asd[asd.length - 2];
+//     asd.push(last+1)
+//     i++;
+//     console.log(asd);
+// }
+
+
+// Shift
+// let asd = [1, 2, 3, 4, 5];
+
+// console.log("Array before: ", asd);
+
+// for(i=0;i<5;i++){
+//     console.log(`This array: ${asd.shift()}`);
+// }
+
+// // console.log(asd.shift());
+// console.log("Array after: ", asd);
 
