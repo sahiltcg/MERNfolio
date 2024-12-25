@@ -32,7 +32,6 @@
 // console.log("This is second array: ", bcd);
 // console.log("This is merged array: ",abc.concat(bcd));
 
-
 // Entries
 // let asd = [1,2,3,4,5,6,7,8,9];
 
@@ -43,9 +42,22 @@
 // }
 
 // at
-let asd = [1,2,3,4,5,6,7,8,9];
+// let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let index = 2;
+// console.log(`The array at index ${index} is ${asd.at(index)}`);
 
-let index = 2;
 
-console.log(`The array at index ${index} is ${asd.at(index)}`);
+// findIndex
+// let asd = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+// function geek(type) {
+//     console.log(`You are a ${type}`);
+// }
+
+// geek("Slan");
+
+let asd = (type) => {
+    console.log(`How are you ${type}?`);
+}
+
+asd("sahil");
