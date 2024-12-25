@@ -34,3 +34,10 @@
 
 
 // Entries
+let asd = [1,2,3,4,5,6,7,8,9];
+
+let itrator = asd.entries();
+
+for(i=0;i<9;i++){
+    console.log("Array: ",itrator.next().value);
+}
