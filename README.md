@@ -58,12 +58,12 @@ MERNfolio/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/MERNfolio.git
+   git clone https://github.com/sahiltcg/MERNfolio.git
    cd MERNfolio
    ```
 
 2. **Explore the Sections**
-   Navigate through the folders to find topics of interest.
+   You can just navigate through the folders to find topics of interest.
 
 3. **Contribute**
    Found something missing? Want to improve the content? Feel free to contribute:
@@ -80,12 +80,12 @@ MERNfolio/
 - **Structured Learning Path**: Progress from basics to full-stack mastery.
 - **Comprehensive Coverage**: Covers all aspects of MERN stack development.
 - **Real-World Projects**: Gain hands-on experience with practical examples.
-- **Community-Driven**: Contributions are welcome to make this repository even better.
+- **Community-Driven**: Contributions are welcome to improve this repository.
 
 ## Contact
 
 For questions or feedback, feel free to reach out:
 - GitHub Issues: Open an issue in this repository.
-- Email: [sahilahmedtcg@gmail.com ](mailto:sahilahmedtcg@gmail.com)
+- Email: [Email me here please.](mailto:sahilahmedtcg@gmail.com)
 
 Happy Coding!
