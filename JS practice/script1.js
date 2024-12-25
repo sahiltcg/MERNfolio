@@ -34,10 +34,18 @@
 
 
 // Entries
+// let asd = [1,2,3,4,5,6,7,8,9];
+
+// let itrator = asd.entries();
+
+// for(i=0;i<9;i++){
+//     console.log("Array: ",itrator.next().value);
+// }
+
+// at
 let asd = [1,2,3,4,5,6,7,8,9];
 
-let itrator = asd.entries();
+let index = 2;
 
-for(i=0;i<9;i++){
-    console.log("Array: ",itrator.next().value);
-}
+console.log(`The array at index ${index} is ${asd.at(index)}`);
+
