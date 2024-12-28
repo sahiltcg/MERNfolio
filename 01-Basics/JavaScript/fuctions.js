@@ -91,15 +91,29 @@
 
 // Adding the elements of an Array
 
-function sum(arr){
+// function sum(arr){
+//     let sum = 0;
+//     for(let i = 0; i< arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+
+// let array = [1,2,3,4,5,6,7,8,9];
+// let sumarray = sum(array);
+
+// console.log("The sum of the elements of an Array is: ", sumarray);
+
+
+// Multiple values in Array function
+
+function sahil(){
+    // The function will automatically create arguments
     let sum = 0;
-    for(let i = 0; i< arr.length; i++){
-        sum = sum + arr[i];
+    for(let i =0; i<arguments.length; i++){
+        sum = sum + arguments[i];
     }
     return sum;
 }
 
-let array = [1,2,3,4,5,6,7,8,9];
-let sumarray = sum(array);
-
-console.log("The sum of the elements of an Array is: ", sumarray);
+console.log("The sum is: ", sahil(12,5,34,5,6,756,67,76,23));
