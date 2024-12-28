@@ -72,17 +72,34 @@
 
 // We can pass and add strings also in functions:
 
-function URL(url, domain){
-    let con = "https://";
-    let result = con + url + domain;
-    return result;
-}
+// function URL(url, domain){
+//     let con = "https://";
+//     let result = con + url + domain;
+//     return result;
+// }
 
-console.log("The site is: ",URL('sahilahmd','.me'));
-// The above will give the desired result but it is not considerd a good practice.
+// console.log("The site is: ",URL('sahilahmd','.me'));
+// // The above will give the desired result but it is not considerd a good practice.
 
-let site = URL('sahilahmed','.me');
-console.log("The site is: ",site);
+// let site = URL('sahilahmed','.me');
+// console.log("The site is: ",site);
 // The above decration is considered as a good practice.
 
 // Both the outputs will be same.
+
+// Passing an array in a function
+
+// Adding the elements of an Array
+
+function sum(arr){
+    let sum = 0;
+    for(let i = 0; i< arr.length; i++){
+        sum = sum + arr[i];
+    }
+    return sum;
+}
+
+let array = [1,2,3,4,5,6,7,8,9];
+let sumarray = sum(array);
+
+console.log("The sum of the elements of an Array is: ", sumarray);
