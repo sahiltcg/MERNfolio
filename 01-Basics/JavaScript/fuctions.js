@@ -34,38 +34,55 @@
 
 // Calculator =>
 
-function sum(var1, var2){
-    let result = var1+var2;
-    return result;
-}
-function minus(var1, var2){
-    let result = var1-var2;
-    return result;
-}
-function multi(var1, var2){
-    let result = var1*var2;
-    return result;
-}
-function divide(var1, var2){
-    let result = var1/var2;
-    return result;
-}
-function mod(var1, var2){
-    let result = var1%var2;
+// function sum(var1, var2){
+//     let result = var1+var2;
+//     return result;
+// }
+// function minus(var1, var2){
+//     let result = var1-var2;
+//     return result;
+// }
+// function multi(var1, var2){
+//     let result = var1*var2;
+//     return result;
+// }
+// function divide(var1, var2){
+//     let result = var1/var2;
+//     return result;
+// }
+// function mod(var1, var2){
+//     let result = var1%var2;
+//     return result;
+// }
+
+// let add = sum(34, 12);
+// console.log("Sum: ", add);
+
+// let subtract = minus(34, 12);
+// console.log("Difference: ", subtract);
+
+// let product = multi(34, 12);
+// console.log("Product: ", product);
+
+// let rimender = divide(34, 12);
+// console.log("rimender: ", rimender);
+
+// let modi = sum(34, 12);
+// console.log("Modulos: ", modi);
+
+// We can pass and add strings also in functions:
+
+function URL(url, domain){
+    let con = "https://";
+    let result = con + url + domain;
     return result;
 }
 
-let add = sum(34, 12);
-console.log("Sum: ", add);
+console.log("The site is: ",URL('sahilahmd','.me'));
+// The above will give the desired result but it is not considerd a good practice.
 
-let subtract = minus(34, 12);
-console.log("Difference: ", subtract);
+let site = URL('sahilahmed','.me');
+console.log("The site is: ",site);
+// The above decration is considered as a good practice.
 
-let product = multi(34, 12);
-console.log("Product: ", product);
-
-let rimender = divide(34, 12);
-console.log("rimender: ", rimender);
-
-let modi = sum(34, 12);
-console.log("Modulos: ", modi);
+// Both the outputs will be same.
