@@ -60,10 +60,23 @@
 // => Create an empty object book.
 // => Dynamically add properties like title, author, and yearPublished using variables.
 
-const book = new Object()
+// const book = new Object(); // constructor based syntex
 
-book.title = "Atomic Habits"
-book.author = "Sahil"
-book.yearPublished = 2020
+// book.title = "Atomic Habits";
+// book.author = "Sahil";
+// book.yearPublished = 2020;
 
-console.log(book)
+// console.log(book);
+
+
+// Object Inheritence
+
+const powers = {
+    fly: true,
+    coordinate: Math.random() + 1
+}
+
+const superhero = Object.create(powers);
+console.log(superhero) // No output will be shown as the powers object will be add to the prototype of the superhero obejct.
+console.log(superhero.coordinate) // The values of the prototype object can be accessed using this
+console.log(Object.getPrototypeOf(superhero)) // The will show all the inhertied properties of powers object
