@@ -71,12 +71,25 @@
 
 // Object Inheritence
 
-const powers = {
-    fly: true,
-    coordinate: Math.random() + 1
-}
+// const powers = {
+//     fly: true,
+//     coordinate: Math.random() + 1
+// }
 
-const superhero = Object.create(powers);
-console.log(superhero) // No output will be shown as the powers object will be add to the prototype of the superhero obejct.
-console.log(superhero.coordinate) // The values of the prototype object can be accessed using this
-console.log(Object.getPrototypeOf(superhero)) // The will show all the inhertied properties of powers object
+// const superhero = Object.create(powers);
+// console.log(superhero) // No output will be shown as the powers object will be add to the prototype of the superhero obejct.
+// console.log(superhero.coordinate) // The values of the prototype object can be accessed using this
+// console.log(Object.getPrototypeOf(superhero)) // The will show all the inhertied properties of powers object
+
+
+// Getters and Setters in JS
+
+const obj4 = Object.create({});
+Object.defineProperty(obj4, 'book',{
+    // icon: '📘',
+    get: () => '📘'
+})
+
+console.log(obj4)
+console.log(obj4.book)
+console.log(Object.getPrototypeOf(library))
