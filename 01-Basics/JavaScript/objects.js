@@ -84,12 +84,12 @@
 
 // Getters and Setters in JS
 
-const library = Object.create({});
-Object.defineProperty(library, 'book',{
-    // icon: '📘',
-    get: () => '📘',
-    enumerable: true
-})
+// const library = Object.create({});
+// Object.defineProperty(library, 'book',{
+//     // icon: '📘',
+//     get: () => '📘',
+//     enumerable: true
+// })
 // The above declaration of object is by default not enumerable we have to turn the enumerable flag ture in order to enumerate the object using any loop.
 
 
@@ -100,7 +100,7 @@ Object.defineProperty(library, 'book',{
 // console.log("This is the values in the prototype of the library object: " , Object.getPrototypeOf(library))
 
 
-for (const key in library) {
-    console.log("The value is: ", key);
+// for (const key in library) {
+//     console.log("The value is: ", key);
     
-}
+// }
