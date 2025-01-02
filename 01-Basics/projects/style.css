@@ -12,9 +12,19 @@ body{
 
 .circle{
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     /* background-color: yellow; */
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 50%;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s forwards; /* 2s duration */
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
 }
