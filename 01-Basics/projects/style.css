@@ -19,12 +19,12 @@ body{
     border-radius: 50%;
 }
 
-.fade-out {
-    animation: fadeOut 0.5s forwards; /* 2s duration */
+/* .fade-out {
+    opacity: 0;
 }
 
 @keyframes fadeOut {
     to {
         opacity: 0;
     }
-}
+} */
