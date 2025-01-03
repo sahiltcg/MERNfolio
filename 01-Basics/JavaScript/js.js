@@ -27,11 +27,34 @@ document.body.appendChild(title);
 
 // Loops to create same element multiple times
 
-for(let i = 0; i<5;i++){
-    let para = document.createElement("p")
-    para.textContent = `This is a para: ${i}`;
-    para.style.fontSize = "16px"
-    para.style.fontWeight = "600"
-    para.color = "#BB2CD9"
-    document.body.appendChild(para)
+
+
+let pra = () => {
+    for(let i = 0; i<5;i++){
+        let para = document.createElement("p")
+        para.className = "para"
+        para.textContent = `This is a para: ${i}`;
+        para.style.fontSize = "16px"
+        para.style.fontWeight = "600"
+        para.color = "#BB2CD9"
+        document.body.appendChild(para)
+    }
+}
+
+// pra()
+
+let div = document.createElement("div")
+div.innerHTML = pra()
+div.className = "para"
+console.log(div);
+
+let maths = () => {
+    let value = prompt("Solve 50 - 10")
+    if(value == 40){
+        let p = document.querySelector("p")
+        p.textContent = "Success"
+    }else{
+        let p = document.querySelector("p")
+        p.textContent = "Failed"
+    }
 }
