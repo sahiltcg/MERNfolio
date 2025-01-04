@@ -12,13 +12,21 @@
         }
         h1{
             text-align: center;
+            padding-top: 20px;
         }
         .btn {
+            
             position: absolute;
             text-align: center;
             border: none;
             cursor: pointer;
             padding: 15px 20px;
+        }
+        .pra{
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            padding-top: 15px;
         }
         .fade-out {
             opacity: 0;
@@ -36,7 +44,16 @@
     <h1>Event Listner Test</h1>
 
     <script>
+        let pra = document.createElement("p")
+        pra.fontSize = "50px"
+        pra.innerText = "Click anywhere on the screen"
+        pra.className = "pra"
+        console.log(pra);
+        document.body.appendChild(pra)
         
+    
+
+
         let sahil = () => {
             let btn = document.createElement("button")
             btn.className = "btn"
@@ -63,7 +80,7 @@
             console.log(btn);
             document.body.appendChild(btn)
         }
-        document.addEventListener("mousemove", sahil)
+        document.addEventListener("click", sahil)
     </script>
 </body>
 </html>
