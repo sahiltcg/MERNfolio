@@ -53,6 +53,18 @@
         }
         console.log(randomcolor());
 
+        let randomnum = () => {
+            let num;
+            for(let i = 0; i<5;i++){
+                num = Math.floor(Math.random()*100) + "px"
+            }
+            return num
+            console.log(num);
+            
+        }
+        console.log(randomnum());
+        console.log(randomnum());
+        
         // Change the color randomly
         // const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 
@@ -60,6 +72,9 @@
             document.body.style.backgroundColor = randomcolor()
             btn.style.backgroundColor = randomcolor()
             btn.style.color = randomcolor()
+            btn.style.borderColor = randomcolor()
+            btn.style.width = randomnum()
+            // btn.style.height = randomnum()
         }
         
         
