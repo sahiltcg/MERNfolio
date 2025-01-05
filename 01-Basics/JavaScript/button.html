@@ -54,13 +54,8 @@
         console.log(randomcolor());
 
         let randomnum = () => {
-            let num;
-            for(let i = 0; i<5;i++){
-                num = Math.floor(Math.random()*100) + "px"
-            }
-            return num
-            console.log(num);
-            
+            let num = Math.floor(Math.random()*100) + "px";
+            return num            
         }
         console.log(randomnum());
         
@@ -72,7 +67,8 @@
             btn.style.backgroundColor = randomcolor()
             btn.style.color = randomcolor()
             btn.style.borderColor = randomcolor()
-            btn.style.borderRadius = randomnum()
+            btn.style.padding = randomnum()
+            // btn.style.border = randomnum()
             // btn.style.height = randomnum()
         }
         
