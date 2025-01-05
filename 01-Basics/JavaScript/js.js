@@ -48,13 +48,31 @@ div.innerHTML = pra()
 div.className = "para"
 console.log(div);
 
+// let maths = () => {
+//     let value = prompt("Solve 50 - 10")
+//     if(value == 40){
+//         let p = document.querySelector("p")
+//         p.textContent = "Success"
+//     }else{
+//         let p = document.querySelector("p")
+//         p.textContent = "Failed"
+//     }
+// }
+
+
 let maths = () => {
-    let value = prompt("Solve 50 - 10")
-    if(value == 40){
-        let p = document.querySelector("p")
-        p.textContent = "Success"
+    let value = prompt("Solve 20 - 15")
+    if(value == 5){
+        document.querySelector("p").innerText = "Success"
+        document.querySelector("p").style.color = "#43BE31"
+        document.querySelector("p").style.fontSize = "70px"
+        document.querySelector("p").style.fontWeight = "700"
+        document.querySelector("button").style.backgroundColor = "#43BE31"
     }else{
-        let p = document.querySelector("p")
-        p.textContent = "Failed"
+        document.querySelector("p").innerText = "Failed"
+        document.querySelector("p").style.color = "#BA2F16"
+        document.querySelector("p").style.fontSize = "70px"
+        document.querySelector("p").style.fontWeight = "700"
+        document.querySelector("button").style.backgroundColor = "#BA2F16"
     }
 }

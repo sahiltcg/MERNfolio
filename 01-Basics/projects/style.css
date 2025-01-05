@@ -19,7 +19,7 @@ body{
     border-radius: 50%;
 }
 
-/* .fade-out {
+.fade-out {
     opacity: 0;
 }
 
@@ -27,4 +27,4 @@ body{
     to {
         opacity: 0;
     }
-} */
+}

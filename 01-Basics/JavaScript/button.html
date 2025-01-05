@@ -53,8 +53,13 @@
         }
         console.log(randomcolor());
 
+        // Change the color randomly
+        // const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
         let changecolor = () => {
             document.body.style.backgroundColor = randomcolor()
+            btn.style.backgroundColor = randomcolor()
+            btn.style.color = randomcolor()
         }
         
         

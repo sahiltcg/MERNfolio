@@ -107,13 +107,46 @@
 
 // Multiple values in Array function
 
-function sahil(){
-    // The function will automatically create arguments
-    let sum = 0;
-    for(let i =0; i<arguments.length; i++){
-        sum = sum + arguments[i];
-    }
-    return sum;
-}
+// function sahil(){
+//     // The function will automatically create arguments
+//     let sum = 0;
+//     for(let i =0; i<arguments.length; i++){
+//         sum = sum + arguments[i]
+//     }
+//     return sum;
+// }
 
-console.log("The sum is: ", sahil(12,5,34,5,6,756,67,76,23));
+// console.log("The sum is: ", sahil(12,5,34,5,6,756,67,76,23));
+
+// Arrow functions
+
+// let arrow = (var1,var2) => {
+//     console.log("This is an arrow funtion declaration", 1,2);
+// }
+
+// arrow();
+
+
+// OBJECTS
+
+// let userName = {
+//     fname: 'Sahil',
+//     lname: 'Ahmed',
+//     age: 24,
+//     role: 'admin',
+//     loginCount: 25
+// };
+
+// console.log(userName.role);
+
+// // You can also update the value of a key by accessing it
+
+// userName.loginCount = 60;
+
+// console.log(userName.loginCount);
+
+// for in loop
+
+// for (let x in userName) {
+//     console.log(x);
+// }
