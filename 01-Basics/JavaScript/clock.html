@@ -12,8 +12,8 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #282c34;
-      color: #61dafb;
+      background-color: #1b2f56;
+      color: #f39770;
       flex-direction: column;
     }
     #clock {
@@ -24,6 +24,10 @@
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
+      color: #ffffff;
+      background-color: #e85719;
+      border-color: #053697c0;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -45,15 +49,15 @@ function updateClock() {
   let hours = now.getHours();
   const minutes = String(now.getMinutes()).padStart(2, '0');
   const seconds = String(now.getSeconds()).padStart(2, '0');
-  const miliseconds = String(now.getMilliseconds()).padStart(2, '0');
+//   const miliseconds = String(now.getMilliseconds()).padStart(2, '0');
 
   // Convert to 12-hour format if needed
   if (!is24HourFormat) {
     const amPm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12 || 12; // Convert 0 to 12 for midnight
-    clockElement.innerText = `${hours}:${minutes}:${seconds}:${miliseconds} ${amPm}`;
+    clockElement.innerText = `${hours}:${minutes}:${seconds} ${amPm}`;
   } else {
-    clockElement.innerText = `${String(hours).padStart(2, '0')}:${minutes}:${seconds}:${miliseconds}`;
+    clockElement.innerText = `${String(hours).padStart(2, '0')}:${minutes}:${seconds}`;
   }
 }
 
