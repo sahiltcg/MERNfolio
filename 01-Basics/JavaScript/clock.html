@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #282c34;
+      color: #61dafb;
+      flex-direction: column;
+    }
+    #clock {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="clock">00:00:00</div>
+  <button id="toggleFormat">Switch to 12-Hour Format</button>
+
+  <script>
+    // Select the clock and button elements
+const clockElement = document.getElementById('clock');
+const toggleButton = document.getElementById('toggleFormat');
+
+// State to track the current time format (default is 24-hour)
+let is24HourFormat = true;
+
+// Function to update the clock
+function updateClock() {
+  const now = new Date();
+  let hours = now.getHours();
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+
+  // Convert to 12-hour format if needed
+  if (!is24HourFormat) {
+    const amPm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12; // Convert 0 to 12 for midnight
+    clockElement.textContent = `${hours}:${minutes}:${seconds} ${amPm}`;
+  } else {
+    clockElement.textContent = `${String(hours).padStart(2, '0')}:${minutes}:${seconds}`;
+  }
+}
+
+// Function to toggle time format
+function toggleTimeFormat() {
+  is24HourFormat = !is24HourFormat;
+  toggleButton.textContent = is24HourFormat
+    ? 'Switch to 12-Hour Format'
+    : 'Switch to 24-Hour Format';
+}
+
+// Attach event listener to the button
+toggleButton.addEventListener('click', toggleTimeFormat);
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+
+// Initialize the clock
+updateClock();
+
+  </script>
+</body>
+</html>
