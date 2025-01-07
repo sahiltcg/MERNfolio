@@ -296,4 +296,40 @@ main h1 {
 #banner .right button:hover {
     background-color: #0078d4;
     color: #ffffff;
-}   
+}  
+
+/* Code section styling */
+
+#code-feature {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin-top: 100px;
+    /* border: 2px solid #f10303; */
+    gap: 50px;
+}
+
+#code-feature img{
+    width: 60%;
+    border-radius: 30px;
+}
+
+#code-feature .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid #ffffff; */
+}
+
+#code-feature .text h3{
+    font-size: 28px;
+}
+
+#code-feature .text p{
+    font-size: 15px;
+    color: #9FB1D1;
+}
+
+#code-feature .text a{
+    color: #38a0f0;
+}
