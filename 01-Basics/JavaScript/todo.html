@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f19d6d;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #da3d3d;
+            padding: 80px 100px;
+            gap: 0;
+        }
+        div>input {
+            padding: 10px 50px;
+            border: none;
+            border-radius: 10px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            font-size: 25px;
+            font-weight: 700;
+        }
+       button{
+        padding: 11px 8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Enter a task">
+        <button>Add</button>
+    </div>
+
+    <script>
+        let div = document.querySelector("div")
+        let btn = document.querySelector("button")
+
+        let add = () =>{
+            let creatediv = document.createElement("div")
+            document.body.appendChild(creatediv)
+        }
+        console.log(add());
+        
+
+        btn.addEventListener("click",add)
+    </script>
+</body>
+</html>
