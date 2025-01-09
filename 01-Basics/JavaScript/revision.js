@@ -22,10 +22,10 @@
 // const count = countries.filter((country) => country.includes("i"));
 // console.log(count);
 
-setTimeout(() => {
-    console.log("This is setTimeout function");
-}, 3000);
+// setTimeout(() => {
+//     console.log("This is setTimeout function");
+// }, 3000);
 
-setInterval(() => {
-    console.log("This is setInterval function");
-}, 2000);
+// setInterval(() => {
+//     console.log("This is setInterval function");
+// }, 2000);
