@@ -17,7 +17,15 @@
 // console.log(sahil.getCourseCount());
 // console.log(sahil);
 
-let countries = ["India", "USA", "Japan", "Russia", "China", "Pakistan", "Nepal"];
+// let countries = ["India", "USA", "Japan", "Russia", "China", "Pakistan", "Nepal"];
 
-const count = countries.filter((country) => country.includes("i"));
-console.log(count);
+// const count = countries.filter((country) => country.includes("i"));
+// console.log(count);
+
+setTimeout(() => {
+    console.log("This is setTimeout function");
+}, 3000);
+
+setInterval(() => {
+    console.log("This is setInterval function");
+}, 2000);
