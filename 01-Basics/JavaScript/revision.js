@@ -17,3 +17,7 @@
 // console.log(sahil.getCourseCount());
 // console.log(sahil);
 
+let countries = ["India", "USA", "Japan", "Russia", "China", "Pakistan", "Nepal"];
+
+const count = countries.filter((country) => country.includes("i"));
+console.log(count);
