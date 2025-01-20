@@ -27,5 +27,17 @@ const users = [
     { name: 'Sam', age: 54 },
 ];
 
-const userfilter = users.filter((user)=> user.age > 40)
-console.log(userfilter);
+const userfilter = users.filter((user)=> user.name.length < 5)
+// console.log(userfilter);
+
+
+// Removing null or undifined values
+
+const values = [1,null,2,3,null,4,5,null,6,7,null]
+
+const newval = values.filter((num)=>{
+    return (num % 2 == 0 && num != null);
+})
+
+console.log(newval);
+
