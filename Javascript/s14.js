@@ -6,7 +6,7 @@
 
 let even = (...arr) => {
     let mod = arr.filter((arr) => arr%2===0)
-    let sort = mod.sort((a, b) => a - b)
+    let sort = mod.sort((a, b) => b-a)
     console.log("This is the sorted array: ",sort);
      
 }

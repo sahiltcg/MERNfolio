@@ -18,7 +18,6 @@ let evenNumbers = num.filter((item)=> item % 2 === 0)
 
 
 // Filtering by Object Property
-
 const users = [
     { name: 'Alice', age: 25 },
     { name: 'Bob', age: 30 },
@@ -32,7 +31,6 @@ const userfilter = users.filter((user)=> user.name.length < 5)
 
 
 // Removing null or undifined values
-
 const values = [1,null,2,3,null,4,5,null,6,7,null]
 
 const newval = values.filter((num)=>{
@@ -40,4 +38,3 @@ const newval = values.filter((num)=>{
 })
 
 console.log(newval);
-
